@@ -278,6 +278,9 @@ font-size: 30px;
 
 .topo p {
 
+padding-left: 32px;
+
+
 }
 
 
@@ -285,3 +288,13 @@ font-size: 30px;
         }
 
 
+@media (min-width: 1366px){
+
+.topo p {
+
+padding-left: 530px;
+text-decoration: underline;
+
+}
+
+}
