@@ -1,0 +1,23 @@
+.materia {
+
+color: rgb(54, 73, 73);
+background-color: bisque;
+text-align: center;
+font-size: 30px;
+padding-top: 30px;
+}
+
+.corpao {
+
+    background-color: bisque;
+}
+
+.materia img {
+
+width: 25%;
+padding-top: 150px;
+padding-left: 300px;
+
+
+}  
+
