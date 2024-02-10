@@ -1,23 +1,47 @@
 .materia {
 
-color: rgb(54, 73, 73);
-background-color: bisque;
+color: rgb(211, 214, 0);
+background-color: rgb(4, 109, 109);
 text-align: center;
 font-size: 30px;
-padding-top: 30px;
+
 }
 
 .corpao {
 
-    background-color: bisque;
+    background-color: rgb(4, 109, 109);
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
 }
 
 .materia img {
 
-width: 25%;
-padding-top: 150px;
-padding-left: 300px;
-
+ width: 70%;   
+margin: 10px;
+padding-left: 40px;
 
 }  
+
+@media (min-width: 1366px) {
+
+    .materia img {
+
+width: 20%;
+margin-bottom:  20px;
+padding-left: 260px;
+margin-right: auto;
+
+.grade {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax)(300px);
+    
+    }
+
+
+    }
+}
+
 
